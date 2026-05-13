@@ -37,10 +37,10 @@ security = [
 build_openssl = ["openssl?/vendored"]
 
 [dependencies]
-mio_06 = { package = "mio" , version ="^0.6.23" } 
+mio_06 = { package = "mio" , version ="1.2.0" } 
 mio-extras = "2.0.6"
 
-mio_08 = { package = "mio" , version ="0.8.5", features = ["net", "os-poll"] } 
+mio_08 = { package = "mio" , version ="1.2.0", features = ["net", "os-poll"] } 
 socketpair = "0.19"
 
 bit-vec = "0.8.0"
